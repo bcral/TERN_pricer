@@ -1,0 +1,23 @@
+body{
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+#box{
+    text-align: center;
+    margin: auto;
+}
+
+#main-logo-display{
+    margin: 10%;
+    max-width: 350px;
+}
+
+.text{
+    margin: 10% auto;
+    padding: 0px 10%;
+    line-height: 1.9;
+    max-width: 550px;
+}

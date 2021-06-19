@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./TERN-app.js"></script>
+    <link rel="stylesheet" href="./main.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+        <div>
+            <h1>TERN/USD</h1>
+            <p>Updated <span id="time">(current time)</span></p>
+        </div>
+        <div>
+            <object id="main-logo-display" type="image/svg+xml" data="media/ternio-tern-logo.svg"></object>
+        <div class="text">
+            <h2>What does this mean?</h2>
+            <h4>(Check the JS console for figures)</h4>
+            <p>The color of the background represents the current TERN/USD price,
+            based on previous data from the last selected time period.  Green means
+            the current value is higher than average, red means the value is lower.
+            The intention is to show the best spending and depositing time for 
+            BLOCKCARD accounts.  Green is a good spending time, red is a good time 
+            to deposit funds.
+            </p>
+
+            <h4>This page uses public API data from coingecko.com</h4>
+        </div>
+    </div>
+</body>
+</html>
